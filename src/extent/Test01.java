@@ -9,6 +9,7 @@ import com.relevantcodes.extentreports.LogStatus;
 public class Test01 {
 
 	public static void main(String[] args) throws InterruptedException {
+		//Vikash Branch
 		ExtentReports extent=new ExtentReports(System.getProperty("user.dir")+"\\Output\\extent.html",true);
 		extent.addSystemInfo("Browser","Chrome").addSystemInfo("Environment","QA").addSystemInfo("Tester","Vikash");
 		File configFile=new File(System.getProperty("user.dir")+"\\ReportConfig\\ReportsConfig.xml");
